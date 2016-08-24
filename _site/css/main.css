@@ -114,7 +114,8 @@ em {
 .text--h2, .input[data-size="large"] {
   font-size: 24px;
   font-weight: 300;
-  line-height: 30px; }
+  line-height: 36px;
+  margin-bottom: 36px; }
   .text--h2 strong, .input[data-size="large"] strong {
     font-weight: 500; }
   .text--h2 .small, .input[data-size="large"] .small {
@@ -1052,89 +1053,9 @@ article .text--link {
     .sandbox .sandbox__canvas .target--zoom {
       zoom: 300%; }
 
-.header {
-  display: block;
-  height: 72px;
-  position: relative;
-  width: 100%; }
-  .header .header__logo {
-    color: #222;
-    left: 0;
-    line-height: 72px;
-    padding: 0 48px;
-    position: absolute; }
-  .header .header__user {
-    line-height: 72px;
-    padding: 0 48px;
-    position: absolute;
-    right: 0;
-    top: 0; }
-
-.kiwi--app .header {
-  background-color: #00a568;
-  color: white; }
-  .kiwi--app .header a {
-    color: white; }
-  .kiwi--app .header .header__app,
-  .kiwi--app .header .header__doc {
-    height: 72px;
-    position: absolute; }
-  .kiwi--app .header .header__app {
-    width: 23.60649%; }
-  .kiwi--app .header .header__doc {
-    left: 23.60649%;
-    right: 144px; }
-    .kiwi--app .header .header__doc .input {
-      background-color: transparent;
-      border: 0;
-      border-bottom: dashed 1px white;
-      color: white;
-      font-size: 18px;
-      margin: 12px;
-      margin-left: 72px;
-      padding: 0;
-      width: 38.1953%; }
-.kiwi--app .container {
-  background-color: rgba(34, 34, 34, 0.1); }
-  .kiwi--app .container .document {
-    -webkit-box-shadow: 0 0 6px rgba(34, 34, 34, 0.1);
-    -moz-box-shadow: 0 0 6px rgba(34, 34, 34, 0.1);
-    box-shadow: 0 0 6px rgba(34, 34, 34, 0.1);
-    background-color: white;
-    margin: -3px 24px 0 23.60649%;
-    padding: 72px; }
-
-.kiwi--marketing .header {
-  background-color: white; }
-.kiwi--marketing .section {
-  height: 480px; }
-  .kiwi--marketing .section.section--alpha {
-    background-color: #00a568; }
-
-.document textarea {
-  border: 0;
-  font-size: 18px;
-  line-height: 30px;
-  margin: 0;
-  min-height: 800px;
-  padding: 0;
-  width: 100%; }
-  .document textarea:focus {
-    outline: 0; }
-  .document textarea::-webkit-input-placeholder {
-    color: #777; }
-  .document textarea:-moz-placeholder {
-    color: #777; }
-  .document textarea::-moz-placeholder {
-    color: #777; }
-  .document textarea:-ms-input-placeholder {
-    color: #777; }
-.document h1 {
-  font-size: 36px;
-  line-height: 36px;
-  margin-bottom: 30px;
-  margin-left: -2.5px; }
-.document p {
-  font-size: 18px;
-  line-height: 30px;
-  margin-bottom: 30px; }
+.container {
+  background-color: #ded7cd;
+  padding: 72px;
+  padding-right: 38.1953%; }
+  .container p {
+    color: #222; }
