@@ -1,0 +1,23 @@
+<header class="header">
+
+	{% if page.context == 'marketing' %}
+	<div class="header__logo text--h2">Kiwi</div>
+	{% endif %}
+
+	{% if page.context == 'app' %}
+	<div class="header__app"></div>
+	<div class="header__doc">
+		<input class="doc__title input" type="text" value="{{ page.title }}">
+		<a href="/app/versions.html" class="doc__versions text--h4">Version History</a>
+	</div>
+	{% endif %}
+
+	<div class="header__user">
+		{% if page.context == 'marketing' %}
+		<a href="/app" class="text--h4">Login</a>
+		{% else %}
+		<a href="/index.html" class="text--h4">Logout</a>
+		{% endif %}
+	</div>
+
+</header>

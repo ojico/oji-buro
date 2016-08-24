@@ -1,0 +1,24 @@
+$height--header: $base*3;
+
+.header {
+    display: block;
+    height: $height--header;
+    position: relative;
+	width: $full;
+
+    .header__logo {
+        color: $black;
+        left: 0;
+    	line-height: $height--header;
+        padding: 0 $base*2;
+        position: absolute;
+    }
+
+    .header__user {
+        line-height: $height--header;
+        padding: 0 $base*2;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+}

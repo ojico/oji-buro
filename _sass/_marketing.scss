@@ -1,0 +1,14 @@
+.kiwi--marketing {
+
+	.header {
+		background-color: $white;
+	}
+
+	.section {
+		height: $base*20;
+	
+		&.section--alpha {
+			background-color: $green;
+		}
+	}
+}
