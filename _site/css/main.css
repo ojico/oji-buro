@@ -1053,9 +1053,13 @@ article .text--link {
     .sandbox .sandbox__canvas .target--zoom {
       zoom: 300%; }
 
+.ojb--splash {
+  background-color: #00a568; }
+
 .container {
-  background-color: #ded7cd;
   padding: 72px;
   padding-right: 38.1953%; }
   .container p {
-    color: #222; }
+    color: white; }
+    .container p > a {
+      color: white; }

@@ -1,9 +1,16 @@
+.ojb--splash {
+	background-color: $green;
+}
+
 .container {
-	background-color: $brown;
 	padding: $base*3;
 	padding-right: $med;
 
 	p {
-		color: $black;
+		color: $white;
+
+		> a {
+			color: $white;
+		}
 	}
 }
